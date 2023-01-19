@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose the algorithm for body measurement extraction:" />
+
+    <Button
+        android:id="@+id/v1button"
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:text="V1: Background Subtraction Algorithm" />
+
+    <Button
+        android:id="@+id/v2button"
+        android:layout_width="match_parent"
+        android:layout_height="341dp"
+        android:text="V2: Silhouette Extraction Model (Deep Learning)" />
+</LinearLayout>
